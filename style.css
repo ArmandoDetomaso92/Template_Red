@@ -1,0 +1,321 @@
+:root {
+    --main-color: #8b0203;
+    --sec-color: #6c757e;
+    --third-color: #ececec;
+}
+body {
+    overflow-x: hidden !important;
+}
+
+.tc-main {
+    color: var(--main-color);
+}
+
+.tc-sec {
+    color: var(--sec-color);
+}
+
+
+.nav-adj {
+    padding-right: 100px;
+}
+
+* {
+    font-family:'Nova Square', 'Rajdani';
+}
+h1  {
+    color: var(--main-color);
+    font-family: 'Nova Square', Rajdani;
+}
+
+.navbar .navbar-style {
+    /* background-color: #ececec; */
+    background-color: red;
+
+}
+.mini-logo {
+    width: 200px;
+    height: 100px;
+}
+.bg-color {
+    background-color: var(--third-color) !important;
+}
+.nav a {
+    color: var(--sec-color);
+}
+
+.header {
+   font-weight: 800;
+   letter-spacing: 40px;
+   padding-top: 20%;
+   
+}
+
+.masthead {
+    width: 100%;
+    height: 89vh;
+    background: linear-gradient( to top , transparent 10% , var(--second-color, 50%) , var(--third-color, 50%) ) , url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 900;
+    background-position: center;
+
+}
+.index {
+    z-index: 1000;
+}
+.bg-effect {
+    zoom: 130% !important;
+}
+.header-txt {
+    color: var(--sec-color);
+    font-style: italic;
+}
+.special-style {
+    color: var(--main-color);
+}
+i {
+    color: var(--main-color) !important; 
+    font-size: 30px !important;
+    font-style: oblique !important;
+}
+
+.icons {
+    color: var(--main-color) !important; 
+    font-size: 50px !important;
+}
+.card {
+    background-color: transparent;
+    border: transparent;
+}
+
+.nav-works::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 1000;
+    border-bottom: var(--main-color);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent; 
+    border-style: solid;
+    border-width: 2px;
+}
+.time-buyer {
+    height: 200px;
+}
+.btn {
+    background-color: var(--main-color);
+    color: white;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.masthead-2 {
+    width: 100%;
+    height: 89vh;
+    background-image: url(./media/trees3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 900;
+    background-position: center top ;
+}
+.masthead-3 {
+    width: 100%;
+    height: 89vh;
+    background-image: url(./media/mountains2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1200;
+    background-position: center bottom;
+    background-attachment: scroll;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: var(--main-color);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 3px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.masthead-4 {
+    width: 100%;
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    z-index: 1200;
+    background-position: right bottom;
+    background-attachment: scroll;
+}
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  .our-team p {
+      font-size: 16px;
+  }
+ .picture img {
+     margin: 0px;
+     border: var(--main-color);
+     border-style: solid;
+     border-width: 3px;
+     padding: 5%;
+     
+ }
+ .anim-pic {
+    transition: 0.5s;
+
+ }
+ .anim-pic:hover {
+    transform: scale(1.2);
+}
+.anim-h1 {
+    transition: 0.5s;
+}
+  
+ .bg-red {
+     background-color: red !important;
+ }
+ .our-team .picture2 {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  .picture2 img {
+    margin: 0px;
+    border: var(--main-color);
+    border-style: solid;
+    border-width: 3px;
+    padding: 5%;
+    
+}
+.our-team .picture2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .footer {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(./media/other.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    zoom: 60%;
+    z-index: 900;
+  }
+  .bg-footer {
+      background-color: var(--main-color);
+  }
+  .bg-footer-effect {
+      background-color: var(--third-color);
+  }
+.footer-text{
+    color: var(--third-color);
+}
+.footer-text h1 {
+    color: var(--third-color);
+}
+.section-margin {
+    margin-top: 100px;
+}
+
+
+h1 {
+	color: red;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+    .masthead-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-body img {
+        zoom: 40%;
+    }
+}
+
+.masthead h1 {
+    font-size: 90px;
+}
+
+@media screen and (max-width: 550px) {
+    .masthead h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .masthead h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .masthead h1 {
+        font-size: 20px;
+    }
+}
+/* 
+* {
+    outline: 1px solid red;
+} */
